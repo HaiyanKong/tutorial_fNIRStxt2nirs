@@ -36,7 +36,7 @@ then save your SD File
 
 ![image](https://github.com/HaiyanKong/Convert-data.txt-to-data.nirs/blob/main/3.png)
 
-## Step5: Convent!
+## Step5: Convert!
 
 put your **data(.txt)**, **three files in Shimadzu2nirs.zip** and **.SD file you created just now** together
 
