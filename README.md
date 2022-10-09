@@ -10,11 +10,11 @@ Shimadzu2nirs [https://www.nitrc.org/projects/shimadzu2nirs/]
 
 ## Step2: Set path
 
-put homer2 at the path of MATLAB2013
+put **homer2** at the path of MATLAB2013
 
 ## Step3: Open the SDgui
 
-run SDgui.m in MATLAB2013
+run **SDgui.m** in MATLAB2013
 
 - note: SDgui.m is here →[...\homer2\PACKAGES\SDgui\SDgui.m]
 
@@ -38,10 +38,10 @@ then save your SD File
 
 ## Step5: Convent!
 
-put your data(.txt), three files in Shimadzu2nirs.zip and .SD file together
+put your **data(.txt)**, **three files in Shimadzu2nirs.zip** and **.SD file you created just now** together
 
 ![image](https://github.com/HaiyanKong/Convert-data.txt-to-data.nirs/blob/main/4.png)
 
-then run the Shimadzu2nirs.m, you will get the data.nirs!
+then run the **Shimadzu2nirs.m**, and you will get the **data.nirs**!
 
 ![image](https://github.com/HaiyanKong/Convert-data.txt-to-data.nirs/blob/main/5.png)
