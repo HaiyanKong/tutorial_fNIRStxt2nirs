@@ -20,7 +20,7 @@ run SDgui.m in MATLAB2013
 
 then you will get this UI
 
-1.png
+![image](https://github.com/HaiyanKong/Convert-data.txt-to-data.nirs/blob/main/1.png)
 
 ## Step4: Set your sources, detectors and channels in SDgui
 
@@ -30,18 +30,18 @@ base on your experiment setting and data acquiring device fill the blank in the 
 
 - note2: when you finish the sources and detectors setting, click the middle of them, you will get the channel
 
-2.png
+![image](https://github.com/HaiyanKong/Convert-data.txt-to-data.nirs/blob/main/2.png)
 
 then save your SD File
 
-3.png
+![image](https://github.com/HaiyanKong/Convert-data.txt-to-data.nirs/blob/main/3.png)
 
 ## Step5: Convent!
 
 put your data(.txt), three files in Shimadzu2nirs.zip and .SD file together
 
-4.png
+![image](https://github.com/HaiyanKong/Convert-data.txt-to-data.nirs/blob/main/4.png)
 
 then run the Shimadzu2nirs.m, you will get the data.nirs!
 
-5.png
+![image](https://github.com/HaiyanKong/Convert-data.txt-to-data.nirs/blob/main/5.png)
