@@ -1,5 +1,7 @@
 # Convert the data recorded by SHIMADZU(.txt) to HOMER2 readable format (.nirs)
 
+This repository is licensed under MIT.
+
 ## Step1: Prepare the followings
 
 MATLAB2013
