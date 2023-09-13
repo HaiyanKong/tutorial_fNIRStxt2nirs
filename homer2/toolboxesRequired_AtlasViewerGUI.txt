@@ -1,3 +1,0 @@
-Image Processing Toolbox
-Simulink
-Control System Toolbox

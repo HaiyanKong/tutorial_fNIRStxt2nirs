@@ -10,40 +10,68 @@ This repository is licensed under MIT.
 
 - [Shimadzu2nirs](https://www.nitrc.org/projects/shimadzu2nirs/)
 
-## Step2: Set path
+## Step2: Set the path
 
-Put **homer2** at the path of MATLAB2013b.
-
-## Step3: Open the SDgui
-
-- Run **SDgui.m** in MATLAB2013b.
-
-  - SDgui.m   → *...\homer2\PACKAGES\SDgui\SDgui.m*
-
-Then you will see this UI: 
+Set **homer2**  in the path of MATLAB2013b.
 
 ![image](https://github.com/HaiyanKong/Convert-data.txt-to-data.nirs/blob/main/1.png)
 
-## Step4: Set your sources, detectors and channels in SDgui
+## Step3: Open the SDgui
 
-Base on your experiment setting and data acquiring device fill the blank in the red box.
+- Set your work path at  *D:\toolbox\homer2\PACKAGES\SDgui* (change the path in the computer)
 
-- Note1: z is always 0.
-
-- Note2: when you finish the sources and detectors setting, click the middle of them, you will get the channel.
+- Run **SDgui.m** in MATLAB2013b.
 
 ![image](https://github.com/HaiyanKong/Convert-data.txt-to-data.nirs/blob/main/2.png)
 
-Save your **SD File**.
+- Next, a prompt will appear for you to select a file. Simply click "Cancel" to proceed.
 
 ![image](https://github.com/HaiyanKong/Convert-data.txt-to-data.nirs/blob/main/3.png)
 
-## Step5: Convert!
-
-Put the **data(.txt)**, **three files from Shimadzu2nirs.zip** and **.SD file** created just now together
+- Then you will see this.
 
 ![image](https://github.com/HaiyanKong/Convert-data.txt-to-data.nirs/blob/main/4.png)
 
-Run the **Shimadzu2nirs.m**, then you will get the **data.nirs**!
+## Step4: Create the SD File
+
+- Base on your optodes arrangement to fill in the blank in the sources and detectors.
+  - Note: z is always 0.
+
 
 ![image](https://github.com/HaiyanKong/Convert-data.txt-to-data.nirs/blob/main/5.png)
+
+- When you complete setting the sources and detectors , then click the number, you will get the channel.
+
+![image](https://github.com/HaiyanKong/Convert-data.txt-to-data.nirs/blob/main/6.png)
+
+![image](https://github.com/HaiyanKong/Convert-data.txt-to-data.nirs/blob/main/7.png)
+
+- After setting channels, and you need to fill in the “Lambda” based on your data acquiring device.
+
+![image](https://github.com/HaiyanKong/Convert-data.txt-to-data.nirs/blob/main/8.png)
+
+- Provide a name for the SD file, and let's call it "test.SD," including the ".SD" suffix.
+
+![image](https://github.com/HaiyanKong/Convert-data.txt-to-data.nirs/blob/main/9.png)
+
+- Click the ''Save", and in the new window, you need to choose the "units", here is "mm"
+
+![image](https://github.com/HaiyanKong/Convert-data.txt-to-data.nirs/blob/main/10.png)
+
+- Your SD file is saved successfully ! Just close the SDgui.
+
+![image](https://github.com/HaiyanKong/Convert-data.txt-to-data.nirs/blob/main/11.png)
+
+
+
+## Step5: Convert!
+
+- Put **the data need to convert (.txt)**, **3 files from Shimadzu2nirs.zip** and **test.SD created in step 4**  together, and set the MABLAB work path to them.
+
+![image](https://github.com/HaiyanKong/Convert-data.txt-to-data.nirs/blob/main/12.png)
+
+- Run the **Shimadzu2nirs.m**, then you will get the **.nirs** data file !
+
+![image](https://github.com/HaiyanKong/Convert-data.txt-to-data.nirs/blob/main/13.png)
+
+![image](https://github.com/HaiyanKong/Convert-data.txt-to-data.nirs/blob/main/14.png)
