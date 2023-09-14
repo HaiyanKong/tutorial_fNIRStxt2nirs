@@ -2,7 +2,16 @@
 
 This repository is licensed under MIT.
 
-## Step1: Prepare the followings
+## TOC
+
+-   [1. Convert tutorial](#Conver-tutorial)
+-   [2. The common error](#The-common-error)
+
+
+
+## Convert tutorial
+
+### Step1 Prepare the followings
 
 - MATLAB2013b
 
@@ -10,13 +19,13 @@ This repository is licensed under MIT.
 
 - [Shimadzu2nirs](https://www.nitrc.org/projects/shimadzu2nirs/)
 
-## Step2: Set the path
+### Step2: Set the path
 
 Set **homer2**  in the path of MATLAB2013b.
 
 ![image](https://github.com/HaiyanKong/Convert-data.txt-to-data.nirs/blob/main/image/1.png)
 
-## Step3: Open the SDgui
+### Step3: Open the SDgui
 
 - Set your work path at  *D:\toolbox\homer2\PACKAGES\SDgui* (change the path in the computer)
 
@@ -32,7 +41,7 @@ Set **homer2**  in the path of MATLAB2013b.
 
 ![image](https://github.com/HaiyanKong/Convert-data.txt-to-data.nirs/blob/main/image/4.png)
 
-## Step4: Create the SD File
+### Step4: Create the SD File
 
 - Base on your optodes arrangement to fill in the blank in the sources and detectors.
   - Note: z is always 0.
@@ -62,9 +71,7 @@ Set **homer2**  in the path of MATLAB2013b.
 
 ![image](https://github.com/HaiyanKong/Convert-data.txt-to-data.nirs/blob/main/image/11.png)
 
-
-
-## Step5: Convert!
+### Step5: Convert!
 
 - Put **the data need to convert (.txt)**, **3 files from Shimadzu2nirs.zip** and **test.SD created in step 4**  together, and set the MABLAB work path to them.
 
@@ -75,3 +82,32 @@ Set **homer2**  in the path of MATLAB2013b.
 ![image](https://github.com/HaiyanKong/Convert-data.txt-to-data.nirs/blob/main/image/13.png)
 
 ![image](https://github.com/HaiyanKong/Convert-data.txt-to-data.nirs/blob/main/image/14.png)
+
+
+
+## The common error
+
+If the optodes arrangement of your experiment is as follows:
+
+![image](https://github.com/HaiyanKong/Convert-data.txt-to-data.nirs/blob/main/error/1.png)
+
+Then your SD file arrangement must correspond one-to-one:
+
+![image](https://github.com/HaiyanKong/Convert-data.txt-to-data.nirs/blob/main/error/2.png)
+
+If the arrangement is totally inconsistent, for example:
+
+![image](https://github.com/HaiyanKong/Convert-data.txt-to-data.nirs/blob/main/error/3.png)
+
+The error will be:
+
+![image](https://github.com/HaiyanKong/Convert-data.txt-to-data.nirs/blob/main/error/4.png)
+
+If the arrangement is consistent but the channel numbers are incorrect, for example:
+
+![image](https://github.com/HaiyanKong/Convert-data.txt-to-data.nirs/blob/main/error/5.png)
+
+The error will be:
+
+![image](https://github.com/HaiyanKong/Convert-data.txt-to-data.nirs/blob/main/error/6.png)
+
