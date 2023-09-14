@@ -95,7 +95,7 @@ Then your SD file arrangement must correspond one-to-one:
 
 ![image](https://github.com/HaiyanKong/Convert-data.txt-to-data.nirs/blob/main/error/2.png)
 
-If the arrangement is totally inconsistent, for example:
+If the arrangements are totally inconsistent, for example:
 
 ![image](https://github.com/HaiyanKong/Convert-data.txt-to-data.nirs/blob/main/error/3.png)
 
@@ -103,7 +103,7 @@ The error will be:
 
 ![image](https://github.com/HaiyanKong/Convert-data.txt-to-data.nirs/blob/main/error/4.png)
 
-If the arrangement is consistent but the channel numbers are incorrect, for example:
+If the arrangements are consistent but the channel numbers in the SD file are inconsistent, for example:
 
 ![image](https://github.com/HaiyanKong/Convert-data.txt-to-data.nirs/blob/main/error/5.png)
 
